@@ -11,7 +11,7 @@
  * Plugin Name:       Inline Markdown
  * Plugin URI:        http://www.ryandurham.com/2013/12/19/inline-markdown-plugin/
  * Description:       Use [md][/md] shortcodes to embed markdown in a post or page and parse it into HTML on the fly, using ParseDown.  
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Ryan Durham
  * Author URI:        http://www.ryandurham.com
  * Text Domain:       inline-markdown
