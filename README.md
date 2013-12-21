@@ -1,4 +1,4 @@
-## Inline Markdown
+## Inline Markdown - WordPress Plugin
 
 This plugin uses the [Parsedown](http://parsedown.org/) library to convert markdown formatted text found within \[md\]\[/md\] shortcodes into HTML on the fly. 
 ### Installation
