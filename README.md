@@ -11,7 +11,7 @@ This plugin uses the [Parsedown](http://parsedown.org/) library to convert markd
 2. When the page or post is rendered in the browser, the markdown will be converted into HTML using the Parsedown library. 
 
 ### Thanks
-This plugin uses the [Parsedown][http://parsedown.org/] library. Many thanks to Emanuil Rusev. 
+This plugin uses the [Parsedown](http://parsedown.org/) library. Many thanks to Emanuil Rusev. 
 
 ### Website:
 [http://www.ryandurham.com/2013/12/19/inline-markdown-plugin/](http://www.ryandurham.com/2013/12/19/inline-markdown-plugin/)
