@@ -4,12 +4,12 @@
  * @package   Inline Markdown
  * @author    Ryan Durham
  * @license   GPL-2.0+
- * @link      http://www.ryandurham.com/code
+ * @link      http://www.ryandurham.com/projects/inline-markdown-plugin/
  * @copyright 2013 Ryan Durham
  *
  * @wordpress-plugin
  * Plugin Name:       Inline Markdown
- * Plugin URI:        http://www.ryandurham.com/2013/12/19/inline-markdown-plugin/
+ * Plugin URI:        http://www.ryandurham.com/projects/inline-markdown-plugin/
  * Description:       Use [md][/md] shortcodes to embed markdown in a post or page and parse it into HTML on the fly, using ParseDown.  
  * Version:           1.0.3
  * Author:            Ryan Durham
