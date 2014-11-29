@@ -10,8 +10,8 @@
  * @wordpress-plugin
  * Plugin Name:       Inline Markdown
  * Plugin URI:        http://www.ryandurham.com/projects/inline-markdown-plugin/
- * Description:       Use [md][/md] shortcodes to embed markdown in a post or page and parse it into HTML on the fly, using ParseDown.  
- * Version:           1.0.3
+ * Description:       Use [md][/md] shortcodes to embed markdown in a post or page and parse it into HTML on the fly, using ParseDown.
+ * Version:           1.0.4
  * Author:            Ryan Durham
  * Author URI:        http://www.ryandurham.com
  * Text Domain:       inline-markdown
