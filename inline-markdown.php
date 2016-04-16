@@ -10,8 +10,8 @@
  * @wordpress-plugin
  * Plugin Name:       Inline Markdown
  * Plugin URI:        http://www.ryandurham.com/projects/inline-markdown-plugin/
- * Description:       Use [md][/md] shortcodes to embed markdown in a post or page and parse it into HTML on the fly, using ParseDown.  
- * Version:           1.0.4
+ * Description:       Use [md][/md] shortcodes to embed markdown in a post or page and parse it into HTML on the fly, using ParseDown.
+ * Version:           1.0.5
  * Author:            Ryan Durham
  * Author URI:        http://www.ryandurham.com
  * Text Domain:       inline-markdown
@@ -56,26 +56,26 @@ function inline_markdown( $atts, $content ) {
 }
 
 /**
- * Process the shortcode before wpautop() & wptexturize() are applied.  
+ * Process the shortcode before wpautop() & wptexturize() are applied.
  * Thanks to http://betterwp.net/17-protect-shortcodes-from-wpautop-and-the-likes/
  * @param  string $content [description]
  * @return [type]          [description]
  */
 function inline_markdown_pre_process_shortcode($content) {
     global $shortcode_tags;
- 
+
     // Backup current registered shortcodes and clear them all out
     $orig_shortcode_tags = $shortcode_tags;
     $shortcode_tags = array();
- 
+
     add_shortcode( 'md', 'inline_markdown' );
- 
+
     // Do the shortcode (only the one above is registered)
     $content = do_shortcode($content);
- 
+
     // Put the original shortcodes back
     $shortcode_tags = $orig_shortcode_tags;
- 
+
     return $content;
 }
 add_filter('the_content', 'inline_markdown_pre_process_shortcode', 7);
